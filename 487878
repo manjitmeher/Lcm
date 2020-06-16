@@ -1,8 +1,13 @@
 #include<stdio.h>
 #include<conio.h>
+lcm();
 int main()
 {
-    int a,b,lcm;
+  lcm();
+}
+lcm() 
+{
+  int a,b,lcm;
     printf("Input first number:");
     scanf("%d",&a);
     printf("\nInput second number:");
@@ -16,5 +21,4 @@ int main()
         }
         ++lcm;
     }
-    return 0;
-}
+} 

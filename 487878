@@ -1,0 +1,20 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+    int a,b,lcm;
+    printf("Input first number:");
+    scanf("%d",&a);
+    printf("\nInput second number:");
+    scanf("%d",&b);
+    while(1)
+    {
+        if(lcm%a==0 && lcm%b==0)
+        {
+            printf("Lcm of %d and %d = %d. ",a,b,lcm);
+            break;
+        }
+        ++lcm;
+    }
+    return 0;
+}
